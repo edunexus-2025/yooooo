@@ -9,7 +9,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN", "7983040092:AAH-i1R3U9ZNCtwj_Gk6DGG9neGq
 CREDIT = os.environ.get("CREDIT", "〱ＵＧ▕")
 # MongoDB Configuration
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "studysakha")
-DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://studysakha:studymohan12345@studysakha.dklglrf.mongodb.net/")
+DATABASE_URL = os.environ.get("DATABASE_URL", "mongodb+srv://studysakha:studymohan12345@studysakha.dklglrf.mongodb.net/?retryWrites=true&w=majority&appName=studysakha")
 MONGO_URL = DATABASE_URL  # For auth system
 
 # Owner and Admin Configuration
@@ -59,5 +59,6 @@ Please contact the admin @ItsUGBot to get access.</blockquote>""",
 
 <blockquote>Use format: {format}</blockquote>"""
 }
+
 
 
